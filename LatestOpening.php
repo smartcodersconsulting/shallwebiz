@@ -10,15 +10,15 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link href="dataTable/datatable.css" rel="stylesheet" />
     <style type="text/css">
         div.dataTables_wrapper {
             width: 100%;
             margin: 0 auto;
         }
     </style>
-    <script src="dataTable/jquery-3.3.1.min.js" type="text/javascript" ></script>
-    <script src="dataTable/jquery.dataTables.min.js" type="text/javascript" ></script>
-	<link href="dataTable/datatable.css" rel="stylesheet" />
+    
+    <script src="dataTable/jquery.dataTables.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#example').DataTable({
@@ -26,12 +26,6 @@
                 "scrollX": true
             });
         });
-		
-		$(document).ready(function($) {
-    $(".table-row").click(function() {
-        window.document.location = $(this).data("href");
-    });
-});
     </script>
 </head>
 <body>

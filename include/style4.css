@@ -3,11 +3,10 @@
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-hr.style1{
-	border-top: 1px solid white;
+hr.style1 {
+    border-top: 1px solid white;
 }
 
-  
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -31,7 +30,7 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background:#006097;
+    background: #006097;
     border: none;
     border-radius: 0;
     margin-bottom: 0px;
@@ -56,6 +55,7 @@ span {
     display: inline-block;
 }
 
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -68,7 +68,7 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background:#006097;
+    background: #006097;
     color: #fff;
     transition: all 0.3s;
 }
@@ -119,7 +119,6 @@ span {
 }
 
 #sidebar .sidebar-header {
-    padding: 0px;
     background: #6d7fcc;
 }
 
@@ -134,8 +133,6 @@ span {
 }
 
 #sidebar ul li a {
-    padding: 10px;
-    font-size: 1.1em;
     display: block;
 }
 
@@ -149,10 +146,7 @@ span {
 }
 
 #sidebar ul li.active>a,
-a[aria-expanded="true"] {
-    color: #fff;
-    background:#006097;
-}
+a[aria-expanded="true"] {}
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -169,7 +163,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: black;
 }
 
 ul.CTAs {
@@ -195,6 +189,7 @@ a.article:hover {
     color: #fff !important;
 }
 
+
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -205,6 +200,7 @@ a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
 }
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -257,26 +253,22 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
-    
     #custom-search-input {
-        margin:0;
+        margin: 0;
         margin-top: 10px;
         padding: 0;
     }
- 
     #custom-search-input .search-query {
         padding-right: 3px;
         padding-right: 4px \9;
         padding-left: 3px;
         padding-left: 4px \9;
         /* IE7-8 doesn't have border-radius, so don't indent the padding */
- 
         margin-bottom: 0;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
     }
- 
     #custom-search-input button {
         border: 0;
         background: none;
@@ -290,20 +282,19 @@ a.article:hover {
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
-        color:#6d7fcc;
+        color: #6d7fcc;
     }
- 
-    .search-query:focus + button {
-        z-index: 3;   
+    .search-query:focus+button {
+        z-index: 3;
     }
-    
 }
 
 
 /* Footer */
+
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 section .section-title {
@@ -312,70 +303,78 @@ section .section-title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
+
 #footer {
     background: #007b5e !important;
 }
-#footer h5{
-	padding-left: 10px;
+
+#footer h5 {
+    padding-left: 10px;
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    color:#ffffff;
+    color: #ffffff;
 }
+
 #footer a {
     color: #ffffff;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
-#footer ul.social li{
-	padding: 3px 0;
+
+#footer ul.social li {
+    padding: 3px 0;
 }
+
 #footer ul.social li a i {
     margin-right: 5px;
-	font-size:25px;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+    font-size: 25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
 }
+
 #footer ul.social li:hover a i {
-	font-size:30px;
-	margin-top:-10px;
+    font-size: 30px;
+    margin-top: -10px;
 }
+
 #footer ul.social li a,
-#footer ul.quick-links li a{
-	color:#ffffff;
+#footer ul.quick-links li a {
+    color: #ffffff;
 }
-#footer ul.social li a:hover{
-	color:#eeeeee;
+
+#footer ul.social li a:hover {
+    color: #eeeeee;
 }
-#footer ul.quick-links li{
-	padding: 3px 0;
-	-webkit-transition: .5s all ease;
-	-moz-transition: .5s all ease;
-	transition: .5s all ease;
+
+#footer ul.quick-links li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
 }
-#footer ul.quick-links li:hover{
-	padding: 3px 0;
-	margin-left:5px;
-	font-weight:700;
+
+#footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
 }
-#footer ul.quick-links li a i{
-	margin-right: 5px;
+
+#footer ul.quick-links li a i {
+    margin-right: 5px;
 }
+
 #footer ul.quick-links li:hover a i {
     font-weight: 700;
 }
 
-@media (max-width:767px){
-	#footer h5 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
-}
-}
-
-.table-row{
-cursor:pointer;
+@media (max-width:767px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
 }

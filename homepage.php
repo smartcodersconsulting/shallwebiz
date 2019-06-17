@@ -1,4 +1,9 @@
-﻿<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+﻿<style>
+    .boxed {
+        border: 1px solid #006097;
+    }
+</style>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -71,14 +76,23 @@
         </div>
     </div>
     </div>
-<div class="container" style="padding-top:20px">
-    <div class="row">
-        <div class="col-sm-12">
-            <div id="pageTable" style="min-height:300px; padding-bottom:100px;" ><?php include 'LatestOpening.php' ;?></div>
+	
+<div class="container " style="padding-top:20px;">
+    <div class="row ">
+        <div class="col-sm-12 boxed ">
+            <nav class="navbar navbar-expand-lg navbar-light " style="margin:10px 0px 10px 0px; !important">
+                <div class="container-fluid ">
+                        <span style="padding-left:400px;color:white;font-size:large">Latest Job Openeings</span>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                    
+                </div>
+            </nav>
+            <div id="pageTable"><?php include 'LatestOpening.php' ;?></div>
         </div>
     </div>
 </div>
-
 <script type="text/javascript">
     $(document).ready(function () {
     });
